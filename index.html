@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Fruits</title>
+</head>
+<body>
+
+    <script>
+        // 1. Create an array of five fruits and display it
+        var fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+        alert("1. Original Fruits Array:\n" + fruits);
+
+        // 2. Add one fruit using push() (adds to the end)
+        fruits.push("Strawberry");
+        alert("2. After push('Strawberry'):\n" + fruits);
+
+        // 3. Remove the last fruit using pop() (removes from the end)
+        fruits.pop();
+        alert("3. After pop():\n" + fruits);
+
+        // 4. Add one fruit at the beginning using unshift()
+        fruits.unshift("Pineapple");
+        alert("4. After unshift('Pineapple'):\n" + fruits);
+
+        // 5. Remove the first fruit using shift()
+        fruits.shift();
+        alert("5. After shift():\n" + fruits);
+
+        // 6. Display the final updated array
+        alert("6. Final Updated Fruits Array:\n" + fruits);
+    </script>
+
+</body>
+</html>
